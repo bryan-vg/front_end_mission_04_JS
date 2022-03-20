@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pokedex.css">
+        <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">                
+        <title>Pokedex LaunchX</title>
+    </head>
+    <body>
+        <div class="titulo1" id="titulo1">
+            <img src="img/Pokedex.png" alt="pokedexPractica" id="pokedexPractica" width="200px">
+            <img src="img/pkdx_sinnoh.png" class="pkdxLogo" alt="pokedexSinnoh" id="pokedexImg" width="130px">
+            <h1 class="tituloPokedex" id="tituloPokedex">Bienvenid@ al mundo de Pokemon!</h1>
+        </div>
+
+        <br>
+        <br>
+        
+
+        <div class="searchArea" id="searchArea">
+            <p class="textoBusca" id="textoBusca">Busca cualquier pokemon:</p>
+            <input type="text" placeholder="escribe un nombre, ej. abra" id="pokeName" name="pokeName">
+            <br>
+            <img src="img/dratini_placeholder.png" alt="Pokemon" id="pokeImg" width="150px">
+            <br>
+            <button onclick="fetchPokemon()">
+                Buscar pokemon
+            </button>
+        </div>
+        <br>
+
+        <div class="nombreDiv" id="nombreDiv">
+            <p class="nombrePokemon" id="nombrePokemon">
+                Nombre del pokemon
+            </p>
+        </div>
+
+        <div class="tiposDiv" id="tiposDiv">
+            <p class="tiposPokemonTitle" id="tiposPokemonTitle">
+                Tipos del pokemon:
+            </p>
+            <p class="tiposPokemon" id="tiposPokemon">
+                tipos
+            </p>
+        </div>
+        <br>
+
+        <div class="statsDiv" id="statsDiv">
+            <p class="statsPokemon" id="statsPokemon">
+                Stats del pokemon:
+            </p>
+        </div>
+        <div class="dvTable" id="dvTable"></div>
+        <br>
+        
+        <div class="movsDiv" id="movsDiv">
+            <p class="movsPokemon" id="movsPokemon">
+                Movimientos del pokemon:
+            </p>
+            <textarea id="movesArea" name="movesArea" rows="4" cols="50">
+                lista de movimientos.
+            </textarea>
+        </div>
+
+        <br>
+        <br>
+        <!--button onclick="GenerateTable()">
+            Generar tabla
+        </button-->
+        <br>
+        
+    </body>
+    <footer>
+        <p class="foot" id="foot">&#169 2022</p>
+        <script src="pokedexLaunchX.js"></script>
+    </footer>
+</html>

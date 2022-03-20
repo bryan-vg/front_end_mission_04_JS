@@ -1,0 +1,64 @@
+h1, .textoBusca{
+    color: #ffe031;
+    text-shadow: 3px 3px darkblue;
+}
+
+.nombreDiv, .tiposPokemonTitle, .movsPokemon, .statsPokemon{
+    font-size: 25px;
+    color: brown;
+    text-shadow: 3px 3px #ffe031;
+}
+
+body {
+    background-image: url('img/pkgback.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.titulo1, .foot{
+    text-align: center;
+}
+
+.tituloPokedex, .textoBusca, .nombreDiv, .tiposPokemonTitle, .movsPokemon, .statsPokemon, .foot{
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.textoBusca{
+    font-size: larger;
+}
+
+.pkdxLogo {
+    margin: 0 10px 10px 0;
+}
+
+.searchArea{
+    text-align: center;
+    border: 10px;
+    border-color: blueviolet;
+}
+
+.nombreDiv, .tiposDiv, .statsDiv, .movsDiv{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    border-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffe031;
+}
+
+td, th{
+    color: darkblue;
+}
+
+.tiposPokemon{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    color: darkblue;
+}
